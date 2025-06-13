@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br>
+     <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+    </form><br>
+
+    <label for="start">Date of Birth:</label>
+
+    <input
+        type="date"
+        id="start"
+        name="D.O.B"
+        value="2000-0-00"
+        min="1960-01-01"
+        max="2030-12-31" /> 
+
+    <fieldset>
+        <legend>Choose you interests:</legend>
+        
+       <div>
+            <input type="checkbox" id="Thor" name="avengers" value="Thor" />
+             <label for="Thor">Thor</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="ironman" name="avengers" value="Iron Man" />
+            <label for="ironman">Iron Man</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="captainamerica" name="avengers" value="Captain America" />
+            <label for="captainamerica">Captain America</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="hulk" name="avengers" value="Hulk" />
+            <label for="hulk">Hulk</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="blackwidow" name="avengers" value="Black Widow" />
+            <label for="blackwidow">Black Widow</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="hawkeye" name="avengers" value="Hawkeye" />
+             <label for="hawkeye">Hawkeye</label>
+        </div>       
+    </fieldset>
+
+    <h2>Select an Avenger's Power/Skill Set</h2>
+
+    <form>
+        <label><input type="radio" name="avenger_skill" value="ironman"> Iron Man – Genius, Power Suit, Flight, Missiles</label><br><br>
+
+        <label><input type="radio" name="avenger_skill" value="captain"> Captain America – Super Strength, Shield Mastery, Leadership</label><br><br>
+
+        <label><input type="radio" name="avenger_skill" value="thor"> Thor – Thunder Power, Mjölnir, God Strength, Flight</label><br><br>
+
+        <label><input type="radio" name="avenger_skill" value="hulk"> Hulk – Super Strength, Regeneration, Rage Mode, Durability</label><br><br>
+
+        <label><input type="radio" name="avenger_skill" value="blackwidow"> Black Widow – Martial Arts, Stealth, Agility, Espionage</label><br><br>
+
+        <label><input type="radio" name="avenger_skill" value="doctorstrange"> Doctor Strange – Magic, Time Manipulation, Portals, Shields</label><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+       
+
+       
+    
+
+</body>
+</html>
